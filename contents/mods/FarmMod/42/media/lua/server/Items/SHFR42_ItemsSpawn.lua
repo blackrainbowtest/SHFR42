@@ -191,7 +191,6 @@ local function addSandboxLoot()
         end
     end
 
-    -- Иницируем парсинг
     ItemPickerJava.doParse = true
 end
 
