@@ -1,0 +1,62 @@
+tileset
+{
+    file = SHFR_trees
+    size = 8,2
+    id = 1
+    //Appleplant_01
+    tile
+    {
+        xy = 0,0
+        BlocksPlacement = 
+        attachedFloor = 
+    }
+    //Appleplant_02
+    tile
+    {
+        xy = 1,0
+        BlocksPlacement = 
+        attachedFloor = 
+    }
+    //Appleplant_03
+    tile
+    {
+        xy = 2,0
+        BlocksPlacement = 
+        attachedFloor = 
+    }
+    //Appleplant_04
+    tile
+    {
+        xy = 3,0
+        BlocksPlacement = 
+        attachedFloor = 
+    }
+    //Appleplant_05
+    tile
+    {
+        xy = 4,0
+        BlocksPlacement = 
+        attachedFloor = 
+    }
+    //Appleplant_06
+    tile
+    {
+        xy = 5,0
+        BlocksPlacement = 
+        attachedFloor = 
+    }
+    //Appleplant_07
+    tile
+    {
+        xy = 6,0
+        BlocksPlacement = 
+        attachedFloor = 
+    }
+    //Appleplant_08
+    tile
+    {
+        xy = 7,0
+        BlocksPlacement = 
+        attachedFloor = 
+    }
+}

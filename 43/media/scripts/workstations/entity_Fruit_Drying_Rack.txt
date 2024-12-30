@@ -1,0 +1,18 @@
+module SHFR42 {
+    imports { Base }
+
+    craftRecipe DryApples
+    {
+        time        = 10,
+        tags = DryingRackHerb,
+        category = Farming,
+            inputs
+            {
+            item 1 [Base.Apple] mode:destroy,
+            }
+            outputs
+            {
+            item 1 Base.PepperJalapenoDried,
+            }
+    }
+}

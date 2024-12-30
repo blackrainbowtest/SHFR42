@@ -1,0 +1,6 @@
+ItemName_EN = {
+    -- ItemName_Base.AppleDried = "Apple (Dried)",
+    ItemName_SHFR42.AppleSeed = "Apple Seeds",
+    ItemName_SHFR42.AppleBagSeed = "Seed Packet - Apple",
+    ItemName_SHFR42.AppleBagSeed_Empty = "Empty Seed Packet - Apple",
+}

@@ -1,0 +1,43 @@
+module SHFR42 {
+    imports { Base }
+
+    item AppleSeed
+    {
+        DisplayCategory = Gardening,
+        Type				=		Normal,
+        DisplayName			=		Apple Seeds,
+        Icon				=		Seeds_Generic,
+        Weight				=		0.02,
+		/*SurvivalGear      =       TRUE,*/
+        WorldStaticModel    =       Seeds_Generic,
+        Tags = isSeed,
+    }
+
+    item AppleBagSeed
+	{
+	    DisplayCategory     =       Gardening,
+        Type	            =	    Literature,
+        DisplayName			=		Seed Packet - Apple (Growing Instructions),
+		Icon				=		Seeds_Apple,
+		Weight				=		0.1,
+		StaticModel         =       AppleSeedBag_Ground,
+		WorldStaticModel    =       AppleSeedBag_Ground,
+        ReadType            =       photo,
+        Tags                =       FastRead,
+        TeachedRecipes      =       Apple Growing Season,
+	}
+
+    item AppleBagSeed_Empty
+	{
+	    DisplayCategory     =       Gardening,
+        Type	            =	    Literature,
+        DisplayName			=		Empty Seed Packet - Apple (Growing Instructions),
+		Icon				=		Seeds_Apple,
+		Weight				=		0.02,
+		StaticModel         =       AppleSeedBag_Ground,
+		WorldStaticModel    =       AppleSeedBag_Ground,
+        ReadType            =       photo,
+        Tags                =       FastRead,
+        TeachedRecipes      =       Apple Growing Season,
+	}
+}
