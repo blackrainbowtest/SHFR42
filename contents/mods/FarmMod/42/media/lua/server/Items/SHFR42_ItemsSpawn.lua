@@ -195,12 +195,12 @@ local function addSandboxLoot()
 end
 
 -- Считывает и перезагружает спавны, таким образом, он должен учитывать настройки песочницы.
--- local function parseTables()
---     if ItemPickerJava.doParse then
---         ItemPickerJava.Parse()
---         ItemPickerJava.doParse = nil
---     end
--- end
+local function parseTables()
+    if ItemPickerJava.doParse then
+        ItemPickerJava.Parse()
+        ItemPickerJava.doParse = nil
+    end
+end
 
 Events.OnInitGlobalModData.Add(addSandboxLoot)
 Events.OnLoadedMapZones.Add(parseTables)
