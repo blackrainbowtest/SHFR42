@@ -1,3 +1,5 @@
+-- Need to check error parcing
+
 require 'Items/SuburbsDistributions'
 require 'Items/ProceduralDistributions'
 local SHFR_Items = require "Items/SHFR42_ItemsSpawn"
